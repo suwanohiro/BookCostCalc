@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cost Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="content">
+        <span class="title">本棚の収納可能冊数</span>
+        <input type="number" min="0" id="count" value="0">
+        <span>冊</span>
+    </div>
+    <div class="content">
+        <span class="title">本棚の価格</span>
+        <input type="number" min="0" id="price" value="0">
+        <span>円</span>
+    </div>
+    <hr>
+    <div class="content">
+        <span class="title">1冊あたりの保管価格</span>
+        <span id="result">0</span>
+        <span>円</span>
+    </div>
+    <div class="content">
+        <button id="reset">リセット</button>
+    </div>
+</body>
+
+</html>
