@@ -2,7 +2,7 @@
     "name": "Book Cost Calculator",
     "short_name": "BookCalc",
     "description": "本棚の1冊あたりの保管価格を計算するアプリ",
-    "start_url": "/",
+    "start_url": "./",
     "display": "standalone",
     "background_color": "#e3f2fd",
     "theme_color": "#039be5",

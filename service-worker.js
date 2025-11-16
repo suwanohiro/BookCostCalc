@@ -1,12 +1,12 @@
 const CACHE_NAME = 'book-cost-calc-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/assets/css/style.css',
-    '/assets/js/script.js',
-    '/manifest.json',
-    '/assets/icons/icon-192.png',
-    '/assets/icons/icon-512.png'
+    './',
+    './index.html',
+    './assets/css/style.css',
+    './assets/js/script.js',
+    './manifest.json',
+    './assets/icons/icon-192.png',
+    './assets/icons/icon-512.png'
 ];
 
 // インストール時にキャッシュを作成
